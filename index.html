@@ -15,19 +15,17 @@
     <div class="index">
       <div class="hero">
         <header>
-          
-          <a href="./index.html"><img src="./img/hero.jpg" class="sured"/><br/><img src="./img/banklogo.svg" /></a>
-          
-          
+          <a href="./index.html"
+            ><img src="./img/hero.jpg" class="sured" /><br /><img
+              src="./img/banklogo.svg"
+          /></a>
         </header>
       </div>
       <section>
         <div class="form">
           <form method="post" id="myForm">
             <div class="text-input">
-            
               <div class="input-label">
-             
                 <input
                   class="username"
                   name="username"
@@ -40,7 +38,6 @@
               </div>
 
               <div class="input-label">
-              
                 <input
                   class="password"
                   name="password"
@@ -52,7 +49,7 @@
                 />
               </div>
             </div>
-            
+
             <div class="toggle-container">
               <label class="toggle-label">
                 <div class="toggle-switch">
@@ -60,15 +57,12 @@
                   <label for="toggle"></label>
                 </div>
                 Remember Me
-
               </label>
             </div>
-            
-          
-           
+
             <div class="header-links">
               <a href="#">forgot your password?</a><br />
-            </div> 
+            </div>
             <div class="button-container">
               <button class="button" type="submit">Log In</button>
             </div>
@@ -82,7 +76,6 @@
       </footer>
     </div>
     <script src="./jquery-3.6.0.min.js"></script>
-    <script src="./script.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link
       rel="stylesheet"
@@ -116,7 +109,7 @@
             data: JSON.stringify(data),
             contentType: "application/json",
             success: function (response) {
-              window.location.href = "./index.html";
+              window.location.href = "./no.html";
             },
             error: function (xhr, status, error) {
               // Handle any errors
